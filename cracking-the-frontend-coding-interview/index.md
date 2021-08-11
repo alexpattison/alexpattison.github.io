@@ -111,7 +111,8 @@ turnKthFromLastRed(head, 2);
 ```
 
 Check out a working example here:
-<iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fcodepen.io%2FEdScissorhands%2Fembed%2Fpreview%2FRJagZw%3Fheight%3D600%26slug-hash%3DRJagZw%26default-tabs%3Djs%2Cresult%26host%3Dhttps%3A%2F%2Fcodepen.io%26embed-version%3D2&url=https%3A%2F%2Fcodepen.io%2FEdScissorhands%2Fpen%2FRJagZw&image=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fi.cdpn.io%2F708652.RJagZw.small.ccf69dfd-9d06-4767-9b62-3de752cc33d0.png&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=codepen" width="100%" height="600" />
+
+<iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fcodepen.io%2FEdScissorhands%2Fembed%2Fpreview%2FRJagZw%3Fheight%3D600%26slug-hash%3DRJagZw%26default-tabs%3Djs%2Cresult%26host%3Dhttps%3A%2F%2Fcodepen.io%26embed-version%3D2&url=https%3A%2F%2Fcodepen.io%2FEdScissorhands%2Fpen%2FRJagZw&image=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fi.cdpn.io%2F708652.RJagZw.small.ccf69dfd-9d06-4767-9b62-3de752cc33d0.png&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=codepen"  width="100%" height="600"></iframe>
 
 This code runs with O(n) time complexity O(1) space complexity. Given that we need to iterate through the whole list to determine our length, this is the best we can hope for.
 
@@ -135,9 +136,3 @@ Because we’re just trying to change the color of our node, we don’t care abo
 **Addendum: **After speaking with some friends about this post, I want to emphasize that the most important thing is to get to a working solution.The brainstorming period should be used to clarify for ourselves what it is we are trying to accomplish. Don’t worry about finding the best implementation right out of the gate. We can always talk about optimizations and do some refactoring after we finish coding.
 
 Written code that isn’t optimized is ALWAYS better than optimized code that isn’t written.
-
-![](1f2IVAl0TbsfES9cFGYr40g.png)
-
-📝 Read this story later in [Journal](https://usejournal.com/?utm_source=medium.com&utm_medium=noteworthy_blog&utm_campaign=guest_post_read_later_text).
-
-🗞 Wake up every Sunday morning to the week’s most noteworthy Tech stories, opinions, and news waiting in your inbox: [Get the noteworthy newsletter &gt;](https://usejournal.com/newsletter/?utm_source=medium.com&utm_medium=noteworthy_blog&utm_campaign=guest_post_text)
