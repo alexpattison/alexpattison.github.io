@@ -1,2 +1,1 @@
-# blog
-personal blog built with github pages
+# Personal blog of Alex Pattison
