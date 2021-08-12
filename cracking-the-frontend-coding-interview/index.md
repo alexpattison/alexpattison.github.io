@@ -35,7 +35,7 @@ Let’s get to it.
 
 The first step when transposing a DS/A question to a frontend question is finding a sensible way to represent the data in the DOM. There are a few different ways we could represent a linked list. Because a linked list is a unary tree, the most natural would be to create a hierarchical structure of nodes where each parent has one child. This is a great approach, but we’re going to head in a slightly different direction because it will make it easier to add some simple styling.
 
-**Frontend Question: **Change the background color of the *kth* to last sibling element. *Because we are trying to emulate a linked list, we will impose the constraint that we only have access to the `nextElementSibling` method of each node (along with inline styling).*
+**Frontend Question:** Change the background color of the *kth* to last sibling element. *Because we are trying to emulate a linked list, we will impose the constraint that we only have access to the `nextElementSibling` method of each node (along with inline styling).*
 
 There are quite a few ways to approach this problem. It’s always a good idea to brainstorm a little bit before immediately jumping into coding up a solution. There’s a pretty strong possibility that the first thing that comes into our head isn’t the best solution. Some possibilities:
 
@@ -133,6 +133,6 @@ const recTurnKthToLastRed = (head, k) => {
 
 Because we’re just trying to change the color of our node, we don’t care about the return value of our function. `countAhead` represents the number of nodes ahead of the current node (inclusive). This means that our top level call to `recTurnKthToLastRed` will return the length of our list.
 
-**Addendum: **After speaking with some friends about this post, I want to emphasize that the most important thing is to get to a working solution.The brainstorming period should be used to clarify for ourselves what it is we are trying to accomplish. Don’t worry about finding the best implementation right out of the gate. We can always talk about optimizations and do some refactoring after we finish coding.
+**Addendum:** After speaking with some friends about this post, I want to emphasize that the most important thing is to get to a working solution.The brainstorming period should be used to clarify for ourselves what it is we are trying to accomplish. Don’t worry about finding the best implementation right out of the gate. We can always talk about optimizations and do some refactoring after we finish coding.
 
 Written code that isn’t optimized is ALWAYS better than optimized code that isn’t written.
